@@ -1,0 +1,80 @@
+
+
+
+-------------------------------Serevers------------------------------------------------------------
+
+C:\Users\chakr\AsyncJokeServer>java AsyncJokeServer 3265
+Chakradhar's Asynchronous JokeServer listening at port 3265.
+
+C:\Users\chakr\AsyncJokeServer>java AsyncJokeServer 3266
+Chakradhar's Asynchronous JokeServer listening at port 3266.
+
+C:\Users\chakr\AsyncJokeServer>java AsyncJokeServer 3267
+Chakradhar's Asynchronous JokeServer listening at port 3267.
+
+
+C:\Users\chakr\AsyncJokeServer>java AsyncJokeServer 3268
+Chakradhar's Asynchronous JokeServer listening at port 3268.
+
+
+
+
+----------------------------------Client------------------------------------------------------------
+
+C:\Users\chakr\AsyncJokeServer>java AsyncJokeClient 3265 3266 3267 3268
+Asynchronous JokeClient started with bindings:
+Server A at 3265
+Server B at 3266
+Server C at 3267
+Server D at 3268
+Enter A or B or C or D or  to get a joke or proverb or numbers for sum: A
+Enter A or B or C or D or  to get a joke or proverb or numbers for sum: B
+Enter A or B or C or D or  to get a joke or proverb or numbers for sum: C
+Enter A or B or C or D or  to get a joke or proverb or numbers for sum: D
+Enter A or B or C or D or  to get a joke or proverb or numbers for sum: 2 3
+Sum of two numbers are: 5
+Enter A or B or C or D or  to get a joke or proverb or numbers for sum: 40 60
+Sum of two numbers are: 100
+Enter A or B or C or D or  to get a joke or proverb or numbers for sum: 046 143
+Sum of two numbers are: 189
+Enter A or B or C or D or  to get a joke or proverb or numbers for sum: 12 95
+Sum of two numbers are: 107
+Enter A or B or C or D or  to get a joke or proverb or numbers for sum: 04 19
+Sum of two numbers are: 23
+Enter A or B or C or D or  to get a joke or proverb or numbers for sum: 25 07
+Sum of two numbers are: 32
+Enter A or B or C or D or  to get a joke or proverb or numbers for sum: 12 12
+Sum of two numbers are: 24
+Enter A or B or C or D or  to get a joke or proverb or numbers for sum: 04 04
+Sum of two numbers are: 8
+Enter A or B or C or D or  to get a joke or proverb or numbers for sum: 19 19
+Sum of two numbers are: 38
+Enter A or B or C or D or  to get a joke or proverb or numbers for sum: 25 25
+Sum of two numbers are: 50
+Enter A or B or C or D or  to get a joke or proverb or numbers for sum: 07 07
+Sum of two numbers are: 14
+Enter A or B or C or D or  to get a joke or proverb or numbers for sum:
+Server A responds: Joke C: I am not interested to play any jokes
+
+Server B responds: Joke B: Listen to my jokes at your own risk
+
+Server C responds: Joke B: Listen to my jokes at your own risk
+
+Server D responds: Joke D: Joker is not the best humour person
+A
+Enter A or B or C or D or  to get a joke or proverb or numbers for sum: B
+Enter A or B or C or D or  to get a joke or proverb or numbers for sum: D
+Enter A or B or C or D or  to get a joke or proverb or numbers for sum: C
+Enter A or B or C or D or  to get a joke or proverb or numbers for sum: 44 44
+Sum of two numbers are: 88
+Enter A or B or C or D or  to get a joke or proverb or numbers for sum: 33 33
+Sum of two numbers are: 66
+Enter A or B or C or D or  to get a joke or proverb or numbers for sum:
+Server A responds: Joke A: Dont except jokes from me
+
+Server B responds: Joke D: Joker is not the best humour person
+
+Server D responds: Joke C: I am not interested to play any jokes
+
+Server C responds: Joke D: Joker is not the best humour person
+
